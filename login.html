@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpeg" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="2.jpeg" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" width="100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+	<div class="card bg-dark text-white w-50">
+	  <div class="card-body">
+		<form action="" method="post">
+			  <div class="container">
+				<h3 class="card-title" style="text-align: center;">Login</h3>
+				<input type="text" placeholder="Username" name="uname" required>
+				<input type="password" placeholder="Enter Password" name="psw" required>
+				<br>
+				<label>
+				  <input type="checkbox" checked="checked" name="remember"> Remember me
+				</label>
+				<br>
+				<button class="button" type="submit">Login</button>
+				<br>
+				<span class="psw" style="text-align: center;">Don't Have an Account? <a href="#">SignUp</a></span>
+				<br>
+				<span class="psw" style="text-align: center;"><a href="#">Forgot password?</a></span>
+			  </div>
+		</form>
+	  </div>
+	</div>
+</body>
+</html>
